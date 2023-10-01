@@ -1,0 +1,17 @@
+.slism-formatter-wrapper {
+  margin: 12px 0 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slism-formatter-wrapper a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 12px;
+  background-color: #3177b8;
+  border-radius: 12px;
+  font-size: 12px;
+  min-width: 120px;
+  text-align: center;
+  min-height: 18px;
+}

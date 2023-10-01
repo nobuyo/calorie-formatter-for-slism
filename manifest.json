@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Calorie formatter for Slism",
+  "description": "Copy the nutritional information with tab-separated formatting",
+  "version": "0.0.1",
+  "host_permissions": [
+    "https://calorie.slism.jp/**"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://calorie.slism.jp/**"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
